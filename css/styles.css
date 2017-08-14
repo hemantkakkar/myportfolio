@@ -1,0 +1,70 @@
+body {
+	font-family: 'Lato',sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+
+
+div#social a {
+  margin: 0 1em 0 0;
+}
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+div#social {
+  line-height: 2em;
+}
+div#social a:last-of-type {
+  margin: 0;
+  
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #bbb;
+  width: 2em;
+}
+
+.text-color {
+	color: #7d97ad;
+}
+
+footer {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+
+.title-supper {
+	font-size: 50px;
+}
+
+
+.title-header {
+	margin-top: 30px;
+}
+
+@media screen and (min-width: 400px) and (max-width:1000px){
+	.text-right {
+		text-align: left;
+	}
+	
+	img{
+		 margin: auto;
+	}
+	
+	.text-center {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 250px) and (max-width: 375px){
+	.text-right {
+		text-align: left;
+	}
+}
